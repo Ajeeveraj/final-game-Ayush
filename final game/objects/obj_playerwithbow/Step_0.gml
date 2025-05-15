@@ -1,21 +1,4 @@
-			// INPUTS //
-// determine left or right movement
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-move_x *= move_speed;
-
-// check if jumping
-var jump_pressed = keyboard_check_pressed(vk_space);  // var makes varaible local to event
-
-
-		// check for collisions
-// check is standing on ground
-is_grounded = place_meeting(x, y+2 , obj_ground);
-
-// check if touching a ladder
-is_climbing = place_meeting(x, y, obj_ladder);
-
-
-			//movement
+		//movement
 // climbing
 if is_climbing {
 	move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
@@ -42,10 +25,10 @@ if (global.hasBow) {
     }
 }
 
-
-
-
-
-
+// Example of shooting arrows when the player has the bow
+if (mouse_check_button_pressed(mb_left)) {
+    // Create an arrow at the player's position
+    instance_create_layer(x, y, "Arrows", obj_arrow); 
+}
 
 

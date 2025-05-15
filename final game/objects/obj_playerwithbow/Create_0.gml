@@ -12,13 +12,3 @@ move_y = 0;
 is_grounded = false;  //on ground?
 is_climbing = false;
 
-global.hasBow = false; // Initially, the player doesn't have the bow
-
-
-
-
-
-
-
-
-
