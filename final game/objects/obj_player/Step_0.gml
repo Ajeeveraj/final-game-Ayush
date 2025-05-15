@@ -34,4 +34,12 @@ move_y += gravity_force;
      //actually move player
 move_and_collide(move_x, move_y, obj_ground);
 
+// Toggle bow holding with the 'H' key
+// Step Event of obj_player
+
+
+
+
+
+
 
