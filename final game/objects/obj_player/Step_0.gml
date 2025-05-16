@@ -34,14 +34,29 @@ move_y += gravity_force;
      //actually move player
 move_and_collide(move_x, move_y, obj_ground);
 
-if (global.hasBow) {
-    // Code to shoot an arrow, trigger an attack, etc.
-    if (mouse_check_button_pressed(mb_left)) {
-        // Code to create an arrow or trigger an action
-        instance_create_layer(x, y, "bow", obj_arrow); // Create an arrow at the player's position
-    }
-}
 
+// Movement (example basic movement, add your logic here)
+x += keyboard_check(vk_right) - keyboard_check(vk_left);
+y += keyboard_check(vk_down) - keyboard_check(vk_up);
+
+// BOW PICKUP CHECK
+if (place_meeting(x, y, obj_bow)) {
+    // Remove bow if it's there
+    with (instance_place(x, y, obj_bow)) {
+        instance_destroy();
+    }
+
+    // Transform to bow player
+   // Create new player with bow
+instance_create_layer(x, y, "Instances", obj_playerwithbow);
+
+// Set camera to follow new player
+var cam = view_camera[0];
+camera_set_view_target(cam, obj_playerwithbow);
+
+// Destroy old player
+instance_destroy();
+}
 
 
 
