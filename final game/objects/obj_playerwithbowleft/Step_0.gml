@@ -40,7 +40,7 @@ if (keyboard_check_pressed(ord("H"))) {
     // Set the arrow's speed
     arrow.speed = 7;
 }
-if (mouse_check_button_pressed(mb_left)) {
-    // Change the current object to obj_playerwithbowleft
+if (keyboard_check_pressed(vk_left)) {
+    // Change the current object to obj_playerwithbowleft when the left arrow key is pressed
     instance_change(obj_playerwithbowleft, true);
 }
