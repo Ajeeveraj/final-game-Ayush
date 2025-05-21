@@ -31,7 +31,10 @@ if (is_climbing) {
 
 // Actually move the player
 move_and_collide(move_x, move_y, obj_ground);
+show_debug_message("Current object: " + object_get_name(object_index));
+// Check for shooting
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 if (keyboard_check_pressed(ord("H"))) {
     var arrow = instance_create_layer(x, y, "bow", obj_arrow);
@@ -75,3 +78,29 @@ if (global.hasBow) {
 }
 
 >>>>>>> parent of bd3e06f (finished bow)
+=======
+
+  
+
+
+// Move Left
+if (keyboard_check(vk_left)) {
+    if (!place_meeting(x - move_speed, y, obj_ground)) {
+       
+    }
+    sprite_index = spr_playerwithbowleft;
+    facing = -1;
+}
+// Move Right
+else if (keyboard_check(vk_right)) {
+    if (!place_meeting(x + move_speed, y, obj_ground)) {
+       
+    }
+    sprite_index = spr_playerwithbow;
+    facing = 1;
+}
+
+// Keep camera on player (you may need to make this dynamic)
+var cam = view_camera[0];
+camera_set_view_target(cam, id);
+>>>>>>> 31471aa21ceec465d1c1e0d15a0c4392bd41dbaf

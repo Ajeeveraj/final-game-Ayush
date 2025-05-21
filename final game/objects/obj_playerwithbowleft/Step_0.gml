@@ -32,15 +32,9 @@ if (is_climbing) {
 // Actually move the player
 move_and_collide(move_x, move_y, obj_ground);
 
-if (keyboard_check_pressed(ord("H"))) {
-    var arrow = instance_create_layer(x, y, "bow", obj_arrow);
-    
-   
-    
-    // Set the arrow's speed
-    arrow.speed = 7;
-}
-if (keyboard_check_pressed(vk_left)) {
-    // Change the current object to obj_playerwithbowleft when the left arrow key is pressed
-    instance_change(obj_playerwithbowleft, true);
-}
+
+
+
+// Keep camera on player (you may need to make this dynamic)
+var cam = view_camera[0];
+camera_set_view_target(cam, id);
