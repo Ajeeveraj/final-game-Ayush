@@ -12,12 +12,9 @@ move_y = 0;
 is_grounded = false;  //on ground?
 is_climbing = false;
 
+global.hasBow = false; // Initially, the player doesn't have the bow
 
-// Collision with bow
-if (place_meeting(x, y, obj_bow)) {
-    instance_destroy(); // destroy the current player
-    instance_create_layer(x, y, "bow", obj_playerwithbow);
-}
+
 
 
 

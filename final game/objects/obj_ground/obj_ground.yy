@@ -6,7 +6,7 @@
     "name": "spr_ground",
     "path": "sprites/spr_ground/spr_ground.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
