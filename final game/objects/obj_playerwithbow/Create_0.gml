@@ -12,8 +12,6 @@ move_x *= move_speed;  // Scale by movement speed
 is_grounded = false;  //on ground?
 is_climbing = false;
 
-if (keyboard_check_pressed(vk_left)) {
-    // Change the current object to obj_playerwithbowleft when the left arrow key is pressed
-    instance_change(obj_playerwithbowleft, true);
-}
-facing = 1; // 1 = right, -1 = left
+
+moving_left = false;
+moving_right = false;

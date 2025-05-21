@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_arrowexplode",
-  "spriteId": null,
+  "spriteId": {
+    "name": "arrow_explode",
+    "path": "sprites/arrow_explode/arrow_explode.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

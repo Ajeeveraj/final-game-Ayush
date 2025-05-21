@@ -14,6 +14,7 @@
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"order":2,},
     {"id":{"name":"obj_playerwithbowleft","path":"objects/obj_playerwithbowleft/obj_playerwithbowleft.yy",},"order":10,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
+    {"id":{"name":"arrow_explode","path":"sprites/arrow_explode/arrow_explode.yy",},"order":11,},
     {"id":{"name":"obj_spikewall","path":"objects/obj_spikewall/obj_spikewall.yy",},"order":4,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":6,},
