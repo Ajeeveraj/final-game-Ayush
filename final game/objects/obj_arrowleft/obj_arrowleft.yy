@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_playerwithbowleft",
+  "name": "obj_arrowleft",
   "spriteId": {
-    "name": "spr_playerwithbowleft",
-    "path": "sprites/spr_playerwithbowleft/spr_playerwithbowleft.yy",
+    "name": "spr_arrowleft",
+    "path": "sprites/spr_arrowleft/spr_arrowleft.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":72,"eventType":9,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

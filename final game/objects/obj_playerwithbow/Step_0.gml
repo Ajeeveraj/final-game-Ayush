@@ -31,16 +31,30 @@ if (is_climbing) {
 
 // Actually move the player
 move_and_collide(move_x, move_y, obj_ground);
+show_debug_message("Current object: " + object_get_name(object_index));
+// Check for shooting
 
-if (keyboard_check_pressed(ord("H"))) {
-    var arrow = instance_create_layer(x, y, "bow", obj_arrow);
-    
-   
-    
-    // Set the arrow's speed
-    arrow.speed = 7;
+
+  
+
+
+// Move Left
+if (keyboard_check(vk_left)) {
+    if (!place_meeting(x - move_speed, y, obj_ground)) {
+       
+    }
+    sprite_index = spr_playerwithbowleft;
+    facing = -1;
 }
-if (mouse_check_button_pressed(mb_left)) {
-    // Change the current object to obj_playerwithbowleft
-    instance_change(obj_playerwithbowleft, true);
+// Move Right
+else if (keyboard_check(vk_right)) {
+    if (!place_meeting(x + move_speed, y, obj_ground)) {
+       
+    }
+    sprite_index = spr_playerwithbow;
+    facing = 1;
 }
+
+// Keep camera on player (you may need to make this dynamic)
+var cam = view_camera[0];
+camera_set_view_target(cam, id);
