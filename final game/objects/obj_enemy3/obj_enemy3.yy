@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_playerwithbow",
+  "name": "obj_enemy3",
   "spriteId": {
-    "name": "spr_playerwithbow",
-    "path": "sprites/spr_playerwithbow/spr_playerwithbow.yy",
+    "name": "spr_enemy3",
+    "path": "sprites/spr_enemy3/spr_enemy3.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parentplayer",
-    "path": "objects/obj_parentplayer/obj_parentplayer.yy",
+    "name": "obj_enemyparent",
+    "path": "objects/obj_enemyparent/obj_enemyparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -30,8 +30,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":72,"eventType":9,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
