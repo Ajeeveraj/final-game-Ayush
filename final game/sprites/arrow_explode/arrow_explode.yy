@@ -57,7 +57,7 @@
     "name": "arrow_explode",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 300.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
