@@ -4,6 +4,7 @@
   "name": "final game",
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_arrowforenemy","path":"objects/obj_arrowforenemy/obj_arrowforenemy.yy",},"order":18,},
     {"id":{"name":"spr_playerwithbow","path":"sprites/spr_playerwithbow/spr_playerwithbow.yy",},"order":8,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":4,},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},"order":14,},
@@ -18,6 +19,7 @@
     {"id":{"name":"obj_parentplayer","path":"objects/obj_parentplayer/obj_parentplayer.yy",},"order":13,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
     {"id":{"name":"arrow_explode","path":"sprites/arrow_explode/arrow_explode.yy",},"order":11,},
+    {"id":{"name":"spr_enemywithbow","path":"sprites/spr_enemywithbow/spr_enemywithbow.yy",},"order":15,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":12,},
     {"id":{"name":"obj_spikewall","path":"objects/obj_spikewall/obj_spikewall.yy",},"order":4,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
@@ -32,6 +34,7 @@
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":15,},
     {"id":{"name":"obj_enemyparent","path":"objects/obj_enemyparent/obj_enemyparent.yy",},"order":16,},
     {"id":{"name":"spr_playerwithbowleft","path":"sprites/spr_playerwithbowleft/spr_playerwithbowleft.yy",},"order":9,},
+    {"id":{"name":"obj_enemywithbow","path":"objects/obj_enemywithbow/obj_enemywithbow.yy",},"order":17,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":13,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
