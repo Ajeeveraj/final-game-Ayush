@@ -31,6 +31,48 @@ if (is_climbing) {
 
 // Actually move the player
 move_and_collide(move_x, move_y, obj_ground);
+  if (knockback_speed > 0.1) {
+    var kb_x = lengthdir_x(knockback_speed, knockback_dir);
+    var kb_y = lengthdir_y(knockback_speed, knockback_dir);
+    
+    var moved = false;
+
+    // Try to move on X axis if no collision
+    if (!place_meeting(x + kb_x, y, obj_ground)) {
+        x += kb_x;
+        moved = true;
+    } else {
+        // Stop horizontal knockback component
+        kb_x = 0;
+    }
+
+    // Try to move on Y axis if no collision
+    if (!place_meeting(x, y + kb_y, obj_ground)) {
+        y += kb_y;
+        moved = true;
+    } else {
+        // Stop vertical knockback component
+        kb_y = 0;
+    }
+
+    // Recalculate speed and direction based on remaining components
+    knockback_speed = point_distance(0, 0, kb_x, kb_y);
+    if (knockback_speed > 0) {
+        knockback_dir = point_direction(0, 0, kb_x, kb_y);
+    }
+
+    // Decay knockback speed
+    knockback_speed *= knockback_decay;
+
+    // If no movement possible, stop knockback
+    if (!moved) {
+        knockback_speed = 0;
+    }
+} else {
+    knockback_speed = 0;
+}
+
+
 
 
 

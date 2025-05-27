@@ -23,6 +23,3 @@ global.hasBow = false; // Initially, the player doesn't have the bow
 
 
 
-
-
-

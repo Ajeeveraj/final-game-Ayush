@@ -11,3 +11,6 @@ move_y = 0;
 // state variables  
 is_grounded = false;  //on ground?
 is_climbing = false;
+knockback_speed = 0;
+knockback_dir = 0;
+knockback_decay = 0.9; // how quickly knockback slows down
