@@ -15,3 +15,4 @@ is_climbing = false;
 
 moving_left = false;
 moving_right = false;
+

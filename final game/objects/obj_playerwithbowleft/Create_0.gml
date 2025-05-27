@@ -11,5 +11,3 @@ move_y = 0;
 // state variables  
 is_grounded = false;  //on ground?
 is_climbing = false;
-
-

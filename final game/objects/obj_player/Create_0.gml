@@ -14,7 +14,9 @@ is_climbing = false;
 
 global.hasBow = false; // Initially, the player doesn't have the bow
 
-global.player = id;
+
+
+
 
 
 

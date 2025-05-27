@@ -1,3 +1,3 @@
 // Arrow settings (check if they are initialized correctly)
-lifetime = 180;  // Lifetime in frames (3 seconds)
-speed = 5;       // Arrow speed
+speed = 10;  // Arrow speed (adjust as needed)
+damage = 10; // How much damage the arrow does (you can customize this)

@@ -1,5 +1,5 @@
 // Movement and gravity variables
-spd = 5;
+spd = 2;
 grav = 0.5;
 vspd = 0; // vertical speed
 // Set initial variables

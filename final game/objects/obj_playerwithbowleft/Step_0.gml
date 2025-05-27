@@ -34,7 +34,6 @@ move_and_collide(move_x, move_y, obj_ground);
 
 
 
-
 // Keep camera on player (you may need to make this dynamic)
 var cam = view_camera[0];
 camera_set_view_target(cam, id);
