@@ -3,10 +3,10 @@
   "resourceVersion": "1.6",
   "name": "final game",
   "resources": [
+    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":20,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_arrowforenemy","path":"objects/obj_arrowforenemy/obj_arrowforenemy.yy",},"order":18,},
     {"id":{"name":"spr_playerwithbow","path":"sprites/spr_playerwithbow/spr_playerwithbow.yy",},"order":8,},
-    {"id":{"name":"obj_transformationblockstopper","path":"objects/obj_transformationblockstopper/obj_transformationblockstopper.yy",},"order":22,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":4,},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},"order":14,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
@@ -65,8 +65,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
