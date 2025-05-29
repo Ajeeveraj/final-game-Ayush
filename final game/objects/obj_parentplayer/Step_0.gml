@@ -21,3 +21,13 @@ if (instance_exists(obj_player)) {
     view_xview[0] = lerp(view_xview[0], clamp(target_x, 0, room_width - view_wview[0]), 0.1);
     view_yview[0] = lerp(view_yview[0], clamp(target_y, 0, room_height - view_hview[0]), 0.1);
 }
+// Apply gravity every step
+vspeed += gravity;
+
+// Reset launching flag when player is no longer standing on the bounce block
+if (!place_meeting(x, y + 1, obj_bounceblock)) {
+    launching = false;
+}
+
+// Apply vertical movement
+y += vspeed;

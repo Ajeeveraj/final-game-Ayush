@@ -18,3 +18,4 @@ moving_right = false;
 knockback_speed = 0;
 knockback_dir = 0;
 knockback_decay = 0.9; // how quickly knockback slows down
+launching = false;
