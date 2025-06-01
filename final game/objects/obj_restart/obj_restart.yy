@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_clickhere",
+  "name": "obj_restart",
   "spriteId": {
-    "name": "spr_clickhere",
-    "path": "sprites/spr_clickhere/spr_clickhere.yy",
+    "name": "Sprite28",
+    "path": "sprites/Sprite28/Sprite28.yy",
   },
   "solid": false,
   "visible": true,

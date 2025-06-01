@@ -11,3 +11,4 @@ view_hview[0] = 600;
 // Set initial position to top-left of the room
 view_xview[0] = 0;
 view_yview[0] = 0;
+audio_master_gain(1); // sets volume to full
