@@ -17,7 +17,7 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F2FCD1C","properties":[],"isDnd":false,"objectId":{"name":"obj_clickhere","path":"objects/obj_clickhere/obj_clickhere.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.112,"scaleY":1.768,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":1824.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_32CF3A1A","properties":[],"isDnd":false,"objectId":{"name":"obj_click_here","path":"objects/obj_click_here/obj_click_here.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.624,"scaleY":1.704,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":1920.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3CAFFC67","spriteId":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.5682292,"scaleY":1.7240741,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":981.0,"y":473.0,},
@@ -30,7 +30,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_2F2FCD1C","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_32CF3A1A","path":"rooms/Room4/Room4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
