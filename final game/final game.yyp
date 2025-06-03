@@ -27,6 +27,7 @@
     {"id":{"name":"spr_heartempty","path":"sprites/spr_heartempty/spr_heartempty.yy",},"order":16,},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"order":2,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
+    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},"order":5,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":12,},
     {"id":{"name":"obj_playerwithbowleft","path":"objects/obj_playerwithbowleft/obj_playerwithbowleft.yy",},"order":10,},
     {"id":{"name":"obj_parentplayer","path":"objects/obj_parentplayer/obj_parentplayer.yy",},"order":13,},
@@ -48,6 +49,7 @@
     {"id":{"name":"obj_howtoplay","path":"objects/obj_howtoplay/obj_howtoplay.yy",},"order":23,},
     {"id":{"name":"obj_arrowexplode","path":"objects/obj_arrowexplode/obj_arrowexplode.yy",},"order":7,},
     {"id":{"name":"obj_arrowleft","path":"objects/obj_arrowleft/obj_arrowleft.yy",},"order":11,},
+    {"id":{"name":"obj_click_here2","path":"objects/obj_click_here2/obj_click_here2.yy",},"order":31,},
     {"id":{"name":"spr_howtoshoot","path":"sprites/spr_howtoshoot/spr_howtoshoot.yy",},"order":20,},
     {"id":{"name":"obj_jumponthis","path":"objects/obj_jumponthis/obj_jumponthis.yy",},"order":29,},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"order":3,},
@@ -67,6 +69,7 @@
     {"id":{"name":"obj_enemywithbow","path":"objects/obj_enemywithbow/obj_enemywithbow.yy",},"order":17,},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},"order":3,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":12,},
+    {"id":{"name":"spr_lore_room","path":"sprites/spr_lore_room/spr_lore_room.yy",},"order":29,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -92,6 +95,7 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
