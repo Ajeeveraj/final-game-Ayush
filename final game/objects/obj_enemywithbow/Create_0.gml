@@ -5,5 +5,5 @@ vspd = 0; // vertical speed
 // Set initial variables
 shootCooldown = 60;  // Time between shots in steps (1 step = 1 frame)
 shootTimer = 0;      // Timer to track cooldown
-attackRange = 10;    // Distance to shoot arrows
+
 arrowSpeed = 5;      // Speed of arrows

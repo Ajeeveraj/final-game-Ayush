@@ -6,12 +6,12 @@
         // If the player is facing left
         var arrow = instance_create_layer(arrow_x, arrow_y, "Bow", obj_arrow);
         arrow.direction = 180;  // Arrow faces left (180 degrees)
-        arrow.speed = 7;        // Adjust speed as needed
+        arrow_speed = 7;        // Adjust speed as needed
     }
     else if (sprite_index == spr_playerwithbow) {
         // If the player is facing right
         var arrow = instance_create_layer(arrow_x, arrow_y, "Bow", obj_arrow);
         arrow.direction = 0;    // Arrow faces right (0 degrees)
-        arrow.speed = 7;        // Adjust speed as needed
+        arrow_speed = 7;        // Adjust speed as needed
     }
 }
